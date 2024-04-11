@@ -194,11 +194,6 @@ display: none;
 }
 
 @media (max-width: 800px) {
-    .intro-content, .grid-one-content, .grid, .contact-form {
-        width: 100%;
-        padding-left: 2rem; /* Ajuste opcional para evitar que os elementos encostem nas bordas */
-        padding-right: 2rem; /* Ajuste opcional para evitar que os elementos encostem nas bordas */
-    }
     .intro-content, .grid{
         grid-template-columns: 1fr;
     }
